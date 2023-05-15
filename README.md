@@ -4,39 +4,31 @@
   <a href="#sobre-">Sobre</a>
 </p>
 <p align="center"> 
-  Employ é um site de transferências internacionais que possibilita o usuário criar sua conta, logar e deslogar.
-  Também permite que mande um e-mail para mim através de um formulário de contato.
+  Apresento a vocês uma calculadora feito em PHP com as 4 operações básicas
 </p>
 <p align="center">
-  <img src="/public/employ.gif" align="center" style="border-radius: 10px" />
+  <img src="/calculadora.gif" align="center" style="border-radius: 10px" />
 </p>
-
-Link para o [servidor hospedado](https://employy.netlify.app/)
 
 ## Tecnologias 👨‍💻 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
-- HTML
-- Styled-components
-- Javascript
-- ReactJs
-- Framer-motion
+- CSS
+- PHP
 
 ## Sobre 📖
 
 
 ### Descrição
-Employ é um site de transferências internacionais que possibilita o usuário criar sua conta, logar e deslogar. Com ele, também é possível o usuário mandar um e-mail para mim através de um formulário de contato.
+É uma calculadora capaz de receber dois números, somar, subtrair, multiplicar e dividir.
 
 
 ### Objetivo
 Praticar conceitos aprendidos em aula. Entre eles:
 
-- Autenticação, contextAPI e hooks do React
-- Animações do Framer-motion
-- RegEx
-- Resposividade com styled-components
-- Modal com EmailJs
-
+- Declaração e manipulação de variáveis
+- Método POST
+- Switch case
+- 
 
 by [William Bierhals](https://github.com/will1Zera)
 
