@@ -28,7 +28,7 @@ Praticar conceitos aprendidos em aula. Entre eles:
 - Declaração e manipulação de variáveis
 - Método POST
 - Switch case
-- 
+
 
 by [William Bierhals](https://github.com/will1Zera)
 
