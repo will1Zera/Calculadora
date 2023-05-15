@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #16191E;
+    color: white;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    max-width: 70rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 550px;
+    background-color: #242831;
+    border-radius: 10px;
+}
+
+h1{
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+h5{
+    font-size: 17px;
+}
+
+select{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 10px 0px 25px 0px;
+    padding: 0px 30px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    background-color: #242831;
+    color: grey;
+    border: 1px solid grey;
+}
+
+.result{
+    width: 300px;
+    height: 50px;
+    border-radius: 2px;
+    background-color: #353941;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.result span{
+    color: #18F08B;
+}
+
+/* Input */
+
+.input-container{
+    /*width: 280px; */
+    position: relative;
+}
+
+.label{
+    position: absolute;
+    left: 10px;
+    top: 14px;
+    transition: all 0.2s;
+    padding: 0 2px;
+    z-index: 1;
+    color: grey;
+}
+
+.label::before{
+    content: "";
+    height: 5px;
+    position: absolute;
+    background-color: #242831;
+    left: 0;
+    top: 10px;
+    width: 100%;
+    z-index: -1;
+}
+
+.text-input{
+    padding: 0.8rem;
+    width: 300px;
+    border: 1px solid grey;
+    background-color: #242831;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    transition: all .3s;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.text-input:focus{
+    border: 1px solid white;
+}
+
+.text-input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #242831 inset;
+}
+
+.text-input::placeholder{
+    opacity: 0;
+}
+
+.text-input:focus::placeholder{
+    opacity: 1;
+    color: white;
+}
+
+.text-input:focus + .label,
+.text-input:not(:placeholder-shown) + .label{
+    top: -10px;
+    font-size: 14px;
+    color: white;
+}
+
+/* Botão */
+
+.button-enviar{
+    color: #242831;
+    background-color: #18F08B;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    width: 130px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-right: 10px;
+}
+
+.button-enviar:hover {
+   opacity: 80%;
+}
